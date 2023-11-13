@@ -85,6 +85,7 @@ plt.show()
 ```
 
 <img width="513" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex-08/assets/133136880/7a4c3972-2758-42da-999c-2138d229c706">
+
 ```
 sns.barplot(x="Segment",y="Sales",data=df)
 plt.xticks(rotation = 90)
@@ -119,6 +120,7 @@ plt.show()
 <img width="569" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex-08/assets/133136880/1662b498-7696-4713-b99c-4b88e5d9d2c7">
 
 # Which ship mode is profitable?
+
 ```
 sns.barplot(x="Ship Mode",y="Profit",data=df)
 plt.show()
@@ -132,14 +134,14 @@ plt.show()
 ```
 <img width="524" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex-08/assets/133136880/855593e9-e22a-4a65-90de-a9cf47eaebbe">
 
-
+```
 sns.violinplot(x="Profit",y="Ship Mode",data=df)
-
+```
 <img width="530" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex-08/assets/133136880/cc59aa29-9691-400d-ada5-0501d5cf2f24">
 
-
+```
 sns.pointplot(x=df["Profit"],y=df["Ship Mode"])
-
+```
 
 <img width="548" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex-08/assets/133136880/705df777-4f52-4c43-aebf-4b3361768a4c">
 
