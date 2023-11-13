@@ -159,6 +159,7 @@ plt.show()
 ```
 
 <img width="500" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex-08/assets/133136880/58e97a4b-d077-46c9-bf0b-e07ca1154661">
+
 ```
 df.groupby(['Region']).sum().plot(kind='pie', y='Sales',figsize=(6,9),pctdistance=1.7,labeldistance=1.2)
 ```
